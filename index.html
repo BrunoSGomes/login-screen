@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<HTML LANG="pt-BR">
+
+<META NAME="description" CONTENT="Página de Login">
+<META NAME="keywords" CONTENT="Login, Senha, Email, Recuperar, Entrar, Cadastrar, Limpar">
+<META NAME="author" CONTENT="Bruno Gomes">
+
+<!--Cabeçalho da página-->
+<HEAD>
+<META CHARSET="UTF-8">
+<TITLE> Página de Login </TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="CSS/formatacao.css">
+</HEAD>
+
+<!--Corpo da página-->
+<BODY VLINK="#121212" ALINK="#121212">
+
+    <DIV ID="logar" CLASS="container-principal">
+    <FORM ACTION="" METHOD="post">
+
+        <IMG SRC="CSS/IMAGE/user.png" WIDTH="35%"> <BR>
+        <LABEL>Usuário</LABEL> <BR> <BR>
+        <INPUT PLACEHOLDER="E-mail" TYPE="text" CLASS="formulario" AUTOFOCUS> <BR> <BR>
+        <INPUT PLACEHOLDER="Senha" TYPE="password" CLASS="formulario"> <BR> <BR>
+        <LABEL>Lembrar-me</LABEL>
+        <INPUT TYPE="checkbox" NAME="lembrar" VALUE="selectA"></INPUT> <BR> <BR>
+
+        <INPUT TYPE="submit" VALUE="Entrar" CLASS="butao" ONCLICK="open('conexao.HTML','conexao.HTML','status=no,Width=320,Height=285,left=522%,resizable=no,fullscreen=no,top=230%')">
+        <INPUT TYPE="reset" VALUE="Limpar" CLASS="butao"> <BR> <BR>
+
+        <A ONCLICK="open('Recuperar.HTML','recuperar.HTML','status=no,Width=320,Height=285,left=522%,resizable=no,fullscreen=no,top=230%')"><U>Esqueceu a sua senha?</U></A> <BR> <BR>
+        <HR> <BR>
+        <LABEL>Ou cadastre-se </LABEL><A ONCLICK="open('cadastro.HTML','cadastro.HTML','status=no,Width=500,Height=600,left=422%,resizable=no,fullscreen=no,top=50%')"><I><U>aqui</U></I></A>
+
+    </FORM>
+    </DIV>
+
+</BODY>
+
+</HTML>

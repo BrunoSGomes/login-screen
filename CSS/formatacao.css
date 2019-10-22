@@ -1,0 +1,128 @@
+*{margin: 0; padding: 0;}
+
+.container-principal
+{
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: rgb(77, 185, 218);
+    text-align: center;
+    font-size: 17px;
+    font-family: verdana;
+    width: 25%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    position: fixed; top: 15%;
+    margin-left: 37%;
+}
+
+.formulario
+{
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgb(77, 185, 218);
+    color: rgb(43, 40, 40);
+    background: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 3px;
+    font-family: verdana;
+    width: 70%;
+}
+
+.butao
+{
+    font-size: 13px;
+    font-family: verdana;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 25%;
+    height: 70%;
+    color: rgb(43, 40, 40);
+    border: 2px solid rgb(77, 185, 218);
+    border-radius: 25px;
+}
+
+.popup
+{
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: rgb(77, 185, 218);
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    font-family: verdana;
+    width: 80%;
+    height: 14%;
+    background-color: rgb(255, 255, 255);
+    position: fixed; top: 37%;
+    margin-left: 7%;
+}
+
+.recuperar
+{
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: rgb(77, 185, 218);
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    font-family: verdana;
+    width: 80%;
+    height: 55%;
+    background-color: rgb(255, 255, 255);
+    position: fixed; top: 20%;
+    margin-left: 7%;
+}
+
+.butaorecuperar
+{
+    font-size: 13px;
+    font-family: verdana;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 35%;
+    height: 20%;
+    color: rgb(43, 40, 40);
+    border: 2px solid rgb(77, 185, 218);
+    border-radius: 25px;
+}
+
+.cadastrar
+{
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: rgb(77, 185, 218);
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    font-family: verdana;
+    width: 80%;
+    height: 93%;
+    background-color: rgb(255, 255, 255);
+    position: fixed; top: 1%;
+    margin-left: 7%;
+}
+
+.butaocadastrar
+{
+    font-size: 13px;
+    font-family: verdana;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    width: 25%;
+    height: 5%;
+    color: rgb(43, 40, 40);
+    border: 2px solid rgb(77, 185, 218);
+    border-radius: 25px;
+}
+
+body
+{
+    background-image: URL('IMAGE/login.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
